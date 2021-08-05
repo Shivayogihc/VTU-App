@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/lope"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".physics_question_fragment_2">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="451dp"
+        android:src="@drawable/see_previous_results"/>
+
+    <TextView
+        android:layout_width="333dp"
+        android:layout_height="234dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="206dp"
+        android:text="                     See \n         Previous Sem Result "
+        android:textColor="@color/colorPrimary_3"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+

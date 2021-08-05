@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:background="#FFFFFF"
+    tools:context=".Previous_sem">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:background="#29AB87" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="396dp"
+        android:background="#29AB87" />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="342dp"
+        android:layout_height="76dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="456dp"
+        android:hint="          Enter your USN"
+        android:textAllCaps="true"
+        android:textColor="#2C2D44"
+        android:textColorHint="#2C2D44"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/proceed"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="73dp"
+        android:background="@drawable/btn_uno"
+
+        android:text="PROCEED"
+        android:textColor="@android:color/background_light" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2C2D44">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+
+            android:src="@drawable/ic_arrow_back" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+</RelativeLayout>

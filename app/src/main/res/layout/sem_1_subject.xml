@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/lope"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#29AB87"
+    tools:context=".cs_sem_1_subject_fragment">
+
+
+    <Button
+        android:id="@+id/m1"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="593dp"
+
+        android:background="@drawable/btn_uno"
+        android:text="Math 1"
+        android:textAllCaps="false"
+        android:textColor="@drawable/txt_btn_uno" />
+</RelativeLayout>

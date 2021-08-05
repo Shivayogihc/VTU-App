@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.advertise">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:screenOrientation="portrait">
+        <activity android:name=".Notification"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            ></activity>
+        <activity android:name=".Linkedin"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".MainActivity_2"
+            android:label="@string/title_activity_main_2"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".User_account" />
+        <activity android:name=".Login_Activity" />
+        <activity android:name=".cs_sem_2_subject" />
+        <activity android:name=".cs_sem_1_subject" />
+        <activity android:name=".Question_paper_webview" />
+        <activity android:name=".All_question_fragment_holder"></activity>
+        <activity android:name=".Question_which_Branch" />
+        <activity android:name=".Webview_other" />
+        <activity android:name=".Search_college"
+            android:screenOrientation="fullSensor"/>
+        <activity android:name=".Other_college"
+            android:screenOrientation="fullSensor"/>
+        <activity android:name=".All_result"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"/>
+        <activity android:name=".pre_web"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"/>
+        <activity android:name=".Previous_sem"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity android:name=".This_sem"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5925784703265272~8551163159" />
+
+        <activity
+            android:name=".MainActivity_1"
+            android:label="              VTU Baba" />
+    </application>
+
+</manifest>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#29AB87"
+    tools:context=".MainActivity_1">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#2C2D44">
+
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+
+          <Button
+              android:layout_width="56dp"
+              android:layout_height="27dp"
+              android:layout_alignParentTop="true"
+              android:layout_alignParentEnd="true"
+              android:layout_marginTop="10dp"
+              android:layout_marginEnd="339dp"
+              android:background="@color/colorPrimary_2"
+              android:text="Beta"
+              android:textColor="#FFFFFF" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentTop="true"
+              android:layout_alignParentEnd="true"
+              android:layout_marginTop="4dp"
+              android:layout_marginEnd="131dp"
+              android:text="@string/app_name"
+              android:textColor="#FFFFFF"
+              android:textSize="30dp" />
+
+          <com.google.android.material.floatingactionbutton.FloatingActionButton
+              android:id="@+id/user_account"
+              android:layout_width="46dp"
+              android:layout_height="46dp"
+              android:layout_alignParentEnd="true"
+              android:layout_marginEnd="15dp"
+              app:backgroundTint="@color/colorPrimary_2" />
+
+      </RelativeLayout>
+
+
+  </androidx.appcompat.widget.Toolbar>
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="382dp"
+        android:layout_height="271dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="406dp"
+        android:src="@drawable/ic_vtu_peta"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="229dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="586dp"
+
+        tools:ignore="RtlCompat" />
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="25dp"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-3940256099942544/6300978111"></com.google.android.gms.ads.AdView>
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="274dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="258dp"
+
+        android:background="@drawable/btn_uno"
+        android:text="See This Sem Result"
+        android:textAllCaps="false"
+        android:textColor="@drawable/txt_btn_uno" />
+
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="274dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="333dp"
+
+        android:background="@drawable/btn_uno"
+
+        android:text="See Other College Result"
+        android:textAllCaps="false"
+        android:textColor="@drawable/txt_btn_uno" />
+
+    <Button
+        android:id="@+id/button_4"
+        android:layout_width="274dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="98dp"
+
+        android:background="@drawable/btn_uno"
+
+        android:text="Get Question papers"
+
+        android:textAllCaps="false"
+        android:textColor="@drawable/txt_btn_uno" />
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="274dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="176dp"
+
+        android:background="@drawable/btn_uno"
+
+        android:text="Previous sem Result"
+
+        android:textAllCaps="false"
+        android:textColor="@drawable/txt_btn_uno" />
+
+
+</RelativeLayout>
+
